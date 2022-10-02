@@ -24,7 +24,7 @@ contract fixedsizedarray{
 //inside function how to use array and how to return
 
     function createArray() public pure returns(uint){
-//in memory we can only make fixed size arrary not dinamic size
+//in memory we can only make fixed size arrary not dynamic size
 
         uint[] memory arrMem = new uint[](3);
         arrMem[1] = 33;
