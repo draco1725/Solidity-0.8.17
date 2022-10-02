@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 
 //DSA: it has 2 method extra  push:pob 
-
+//we can not make dynamic size array in memory
 contract dynamicSizearray{
 
     uint[] public arr = [10,2626,58,815,562,15,84,28,87984];
