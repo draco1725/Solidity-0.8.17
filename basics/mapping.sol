@@ -47,4 +47,10 @@ he again makes a donation of 20eth the amount should be showed 30. thats what th
 whether that sender has made previous donation or not and just add it up with the new donation
 */
     }
+    
+//how to delete the data
+    function delete_Info() public {
+        delete acc_info[msg.sender];
+    }
+}
 }
